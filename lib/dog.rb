@@ -17,6 +17,7 @@ class Dog
   def bark
     @bark
   end 
+end
   
   fido = Dog.new("very cute", "long tail", "barks a lot")
   puts "Is fido cute? #{fido.is_it_cute}"
